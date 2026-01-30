@@ -10,177 +10,202 @@
 <header>
 	<div class="banner">
 		<div class="banner-overlay"></div>
+		<div class="banner-top">
+			<div class="nav banner-nav">
+				<a href="index.html" class="nav-link active">🏠 Trang Chủ</a>
+				<a href="dia_diem.html" class="nav-link">🗺️ Địa Điểm Chính</a>
+				<a href="mon_an.html" class="nav-link">🍴 Ẩm Thực</a>
+				<a href="dang_ki.html" class="nav-link">📝 Đăng Ký Tour</a>
+			</div>
+		</div>
 		<div class="banner-content">
 			<h1>🌴 ĐỊA ĐIỂM DU LỊCH Ở AN GIANG 🌴</h1>
 		</div>
 	</div>
-	<div class="nav">
-		<a href="index.html" class="nav-link active">🏠 Trang Chủ</a>
-		<a href="dia_diem.html" class="nav-link">🗺️ Địa Điểm Chính</a>
-		<a href="mon_an.html" class="nav-link">🍴 Ẩm Thực</a>
-		<a href="dang_ki.html" class="nav-link">📝 Đăng Ký Tour</a>
-	</div>
-	<div class="slogan">
-		<div class="row">
-			<div id="b3a" class="block_3">
-				<h2>✨ Khám Phá</h2>
-				<p>Những điểm đẹp nhất xứ Tây</p>
-			</div>
-		<div id="b3b" class="block_3">
-			<h2>🍽️ Ẩm Thực</h2>
-			<p>Hương vị đặc trưng xứ Tây</p>
-		</div>
-		<div id="b3c"class="block_3">
-			<h2>🌊 Yên Tĩnh</h2>
-			<p>Thư giãn tại những nơi thanh bình</p>
-		</div>
-		</div>
-	</div>
+
 </header>
 
 <div class="content">
-	<div class="intro-section">
-		<h2>Chào Mừng Đến An Giang - Vùng Đất Tây Duyên Hà</h2>
-		<p class="intro-text">
-			An Giang là một tỉnh xinh đẹp nằm ở phía tây của Đồng Bằng Sông Cửu Long. Với những cảnh quan thiên nhiên tuyệt vời, 
-			các địa danh lịch sử - tâm linh, và nền ẩm thực phong phú, An Giang là điểm đến lý tưởng cho những ai yêu thích khám phá 
-			vẻ đẹp tự nhiên và văn hóa truyền thống của Việt Nam.
-		</p>
+	<!-- Hero Section -->
+	<div class="hero-section">
+		<h2>Khám Phá Vùng Đất Tây Duyên Hà</h2>
+		<p>An Giang - Nơi giao thoa giữa thiên nhiên, lịch sử và nền ẩm thực phong phú</p>
 	</div>
 
-	<h2 style="margin-top: 3rem;">🗺️ Những Địa Điểm Nổi Bật</h2>
-	<div class="carousel-container">
-		<div class="carousel-track" id="carouselTrack1">
-			<div class="card">
-				<img src="images/place-rung-tram.jpg" alt="Rừng Tràm Trà Sư" class="card-icon" />
-				<h3>Rừng Tràm Trà Sư</h3>
-				<p>Vùng rừng tràm nguyên sinh với cảnh quan thiên nhiên tuyệt đẹp. Thích hợp để khám phá đa dạng sinh học và chụp ảnh phong cảnh.</p>
-				<a href="dia_diem.html#rung-tram" class="card-link">Xem Chi Tiết →</a>
-			</div>
+	<!-- Quick Stats -->
+	<div class="stats-grid">
+		<div class="stat-card">
+			<div class="stat-icon">🏛️</div>
+			<h3>5 Địa Điểm</h3>
+			<p>Du lịch nổi bật</p>
+		</div>
+		<div class="stat-card">
+			<div class="stat-icon">🍽️</div>
+			<h3>5 Món Ăn</h3>
+			<p>Đặc sản An Giang</p>
+		</div>
+		<div class="stat-card">
+			<div class="stat-icon">🎬</div>
+			<h3>Video</h3>
+			<p>Quay phim tuyệt đẹp</p>
+		</div>
+		<div class="stat-card">
+			<div class="stat-icon">📝</div>
+			<h3>Đăng Ký</h3>
+			<p>Tour du lịch linh hoạt</p>
+		</div>
+	</div>
 
-			<div class="card">
-				<img src="images/place-ho-chua-ta-pa.jpg" alt="Hồ & Chùa Tà Pạ" class="card-icon" />
-				<h3>Hồ & Chùa Tà Pạ</h3>
-				<p>Quần thể phong cảnh gồm hồ nước rộng lớn và chùa cổ kính. Nơi lý tưởng để tĩnh tâm và ngắm cảnh hoàng hôn đẹp.</p>
-				<a href="dia_diem.html#ho-chua-ta-pa" class="card-link">Xem Chi Tiết →</a>
+	<!-- Locations Section with Alternating Layout -->
+	<h2 class="section-title">🗺️ Các Địa Điểm Du Lịch</h2>
+	
+	<div class="alternating-section">
+		<div class="alt-item alt-item-reverse">
+			<div class="alt-image">
+				<img src="images/place-cho-noi-cai-be.jpg" alt="Chợ Nổi Cái Bè" />
 			</div>
-
-			<div class="card">
-				<img src="images/place-ho-soai-so.jpg" alt="Hồ Soài So" class="card-icon" />
-				<h3>Hồ Soài So</h3>
-				<p>Hồ nước ngoài thành phố với không khí trong lành và yên bình. Địa điểm lý tưởng để thả lỏng, dã ngoại và tham gia các hoạt động ngoài trời.</p>
-				<a href="dia_diem.html#ho-soai-so" class="card-link">Xem Chi Tiết →</a>
+			<div class="alt-content">
+				<h3>Chợ Nổi Cái Bè</h3>
+				<p>Thị trường nước truyền thống hơn 200 năm tuổi. Hàng ngàn chiếc thuyền nhỏ nô nức trên sông Tiền với hàng hóa địa phương. Cảnh tượng sáng sớm với sương khói và tiếng rao hàng tạo nên không khí sôi động, chân thực.</p>
+				<a href="dia_diem.html" class="alt-link">Khám Phá Thêm →</a>
 			</div>
+		</div>
 
-			<div class="card">
-				<img src="images/place-mieu-ba-chua.jpg" alt="Miếu Bà Chúa Xứ Núi Sam" class="card-icon" />
-				<h3>Miếu Bà Chúa Xứ Núi Sam</h3>
-				<p>Ngôi miếu linh thiêng trên đỉnh núi Sam với kiến trúc độc đáo. Nơi tu bái và chiêm ngưỡng quang cảnh toàn vùng từ trên cao.</p>
-				<a href="dia_diem.html#mieu-ba-chua-xu" class="card-link">Xem Chi Tiết →</a>
+		<div class="alt-item">
+			<div class="alt-image">
+				<img src="images/place-nui-chua-phat.jpg" alt="Núi Chùa Phật" />
 			</div>
-
-			<div class="card">
-				<img src="images/place-chua-koh-kas.jpg" alt="Chùa Koh Kas" class="card-icon" />
-				<h3>Chùa Koh Kas</h3>
-				<p>Ngôi chùa nổi tiếng với kiến trúc Khmer độc đáo tại An Giang. Phản ánh sâu sắc nền văn hóa của dân tộc Khmer địa phương.</p>
-				<a href="dia_diem.html#chua-koh-kas" class="card-link">Xem Chi Tiết →</a>
+			<div class="alt-content">
+				<h3>Núi Chùa Phật</h3>
+				<p>Biểu tượng tâm linh cao 251 mét với Chùa Tây Lâm cổ kính xây từ thế kỷ 18. Từ đỉnh núi, ngắm toàn cảnh sông Hậu uốn lượn, vùng đất phù sa xanh tươi. Điểm tham quan lý tưởng cho những ai yêu lịch sử và tôn giáo.</p>
+				<a href="dia_diem.html" class="alt-link">Khám Phá Thêm →</a>
 			</div>
+		</div>
 
-			<!-- Duplicate cards for seamless loop -->
-			<div class="card">
-				<img src="images/place-rung-tram.jpg" alt="Rừng Tràm Trà Sư" class="card-icon" />
-				<h3>Rừng Tràm Trà Sư</h3>
-				<p>Vùng rừng tràm nguyên sinh với cảnh quan thiên nhiên tuyệt đẹp. Thích hợp để khám phá đa dạng sinh học và chụp ảnh phong cảnh.</p>
-				<a href="dia_diem.html#rung-tram" class="card-link">Xem Chi Tiết →</a>
+		<div class="alt-item alt-item-reverse">
+			<div class="alt-image">
+				<img src="images/place-tinh-xa-ngoc-quang.jpg" alt="Tịnh Xá Ngọc Quang" />
 			</div>
+			<div class="alt-content">
+				<h3>Tịnh Xá Ngọc Quang</h3>
+				<p>Thiền viện yên tĩnh nằm giữa rừng xanh mát. Không khí thanh tịnh và yên bình tạo cơ hội tìm hiểu về Phật giáo. Nơi lý tưởng để tham dự buổi thuyết pháp, thiền định, hay đơn giản chỉ ngắm cảnh rừng tự nhiên.</p>
+				<a href="dia_diem.html" class="alt-link">Khám Phá Thêm →</a>
+			</div>
+		</div>
 
-			<div class="card">
-				<img src="images/place-ho-chua-ta-pa.jpg" alt="Hồ & Chùa Tà Pạ" class="card-icon" />
-				<h3>Hồ & Chùa Tà Pạ</h3>
-				<p>Quần thể phong cảnh gồm hồ nước rộng lớn và chùa cổ kính. Nơi lý tưởng để tĩnh tâm và ngắm cảnh hoàng hôn đẹp.</p>
-				<a href="dia_diem.html#ho-chua-ta-pa" class="card-link">Xem Chi Tiết →</a>
+		<div class="alt-item">
+			<div class="alt-image">
+				<img src="images/place-ba-chau.jpg" alt="Chùa Bà Châu" />
+			</div>
+			<div class="alt-content">
+				<h3>Chùa Bà Châu</h3>
+				<p>Di tích lịch sử hơn 300 năm với kiến trúc truyền thống Việt Nam kết hợp phong cách Hoa. Thờ phụng bà Chúa Xứ, được sùng kính by người dân địa phương. Những chi tiết trang trí công phu, tinh xảo tạo nên điểm nhấn kiến trúc.</p>
+				<a href="dia_diem.html" class="alt-link">Khám Phá Thêm →</a>
+			</div>
+		</div>
+
+		<div class="alt-item alt-item-reverse">
+			<div class="alt-image">
+				<img src="images/place-khu-sinh-thai.jpg" alt="Khu Du Lịch Sinh Thái" />
+			</div>
+			<div class="alt-content">
+				<h3>Khu Du Lịch Sinh Thái</h3>
+				<p>Thiên đường tự nhiên với rừng ngập mặn và hệ động thực vật đa dạng phong phú. Nơi tuyệt vời để khám phá sinh thái, birdwatching, chụp ảnh thiên nhiên. Đây là nơi lý tưởng để thổi hít không khí sạch sẽ và tươi mới của Miền Tây.</p>
+				<a href="dia_diem.html" class="alt-link">Khám Phá Thêm →</a>
 			</div>
 		</div>
 	</div>
 
-	<h2 style="margin-top: 3rem;">🍲 Ẩm Thực Địa Phương</h2>
-	<div class="carousel-container">
-		<div class="carousel-track" id="carouselTrack2">
-			<div class="card">
-				<div class="card-icon">🍜</div>
-				<h3>Bún cá Long Xuyên</h3>
-				<p>Món bún quãng của Long Xuynên với nước dùng thảo mộc và cá tươi. Hương vị thươm ngon và đẹp mắt.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+	<!-- Food Section with Grid -->
+	<h2 class="section-title">🍲 Đặc Sản Ẩm Thực</h2>
+	
+	<div class="food-grid">
+		<div class="food-card">
+			<div class="food-image">
+				<img src="images/food-com-lam.jpg" alt="Cơm Lam" />
 			</div>
-
-			<div class="card">
-				<img src="images/food-goi-sau-dau.jpg" alt="Gỏi sầu đâu" class="card-icon" />
-				<h3>Gỏi sầu đâu</h3>
-				<p>Món gỏi tạo bằng sầu đâu non mạnh với nước sốt cân bằng. Sẽ giớng không thể chối của đối bỏ từng vị dẹp mắt.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+			<div class="food-content">
+				<h3>Cơm Lam</h3>
+				<p>Nấu trong ống tre non với hương thơm độc đáo từ gạo, đậu xanh và gà. Hương vị tuyệt vời khó tả khi rice tan quyện với thơm của ống tre.</p>
+				<a href="mon_an.html" class="food-link">Xem Thêm</a>
 			</div>
+		</div>
 
-			<div class="card">
-				<img src="images/food-xoi-phong.jpg" alt="Xôi phồng Chợ Mới" class="card-icon" />
-				<h3>Xôi phồng Chợ Mới</h3>
-				<p>Món xôi truyền thống của Chợ Mới với hương thơm độc đáo. Tằng cao và đẹp mắt, là lên đơi tuyệt vời.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+		<div class="food-card">
+			<div class="food-image">
+				<img src="images/food-canh-chua-ca.jpg" alt="Canh Chua Cá" />
 			</div>
-
-			<div class="card">
-				<img src="images/food-chao-bo.jpg" alt="Cháo bò Tri Tôn" class="card-icon" />
-				<h3>Cháo bò Tri Tôn</h3>
-				<p>Món cháo bò truyền thống của Tri Tôn với nước dùng thơm ngon. Ấm nóng và bổ dưỡng, thích hợp cho bữa sáng.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+			<div class="food-content">
+				<h3>Canh Chua Cá</h3>
+				<p>Nước dùng cua từ cá tươi sông Mekong với chua chua và rau quý hiếm. Vị chua thanh mát kích thích vị giác, đặc biệt thích hợp vào ngày nóng.</p>
+				<a href="mon_an.html" class="food-link">Xem Thêm</a>
 			</div>
+		</div>
 
-			<div class="card">
-				<img src="images/food-goi-du-du.jpg" alt="Gỏi đu đủ đâm Tri Tôn" class="card-icon" />
-				<h3>Gỏi đu đủ đâm Tri Tôn</h3>
-				<p>Món gỏi đu đủ đâm đặc sản Tri Tôn với hương vị chua cay. Giòn sắc và đủ các vị, rất hấp dẫn.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+		<div class="food-card">
+			<div class="food-image">
+				<img src="images/food-banh-trang-nuong.jpg" alt="Bánh Tráng Nướng" />
 			</div>
-
-			<!-- Duplicate cards for seamless loop -->
-			<div class="card">
-				<img src="images/food-bun-ca.jpg" alt="Bún cá Long Xuyên" class="card-icon" />
-				<h3>Bún cá Long Xuyên</h3>
-				<p>Món bún quãng của Long Xuynên với nước dùng thảo mộc và cá tươi. Hương vị thươm ngon và đẹp mắt.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+			<div class="food-content">
+				<h3>Bánh Tráng Nướng</h3>
+				<p>Đặc sản Long Xuyên nướng trên than hồng đến khi vàng ươm và giòn tan. Ăn kèm mắm chua, dậu phộng xay tạo vị ngon tuyệt vời.</p>
+				<a href="mon_an.html" class="food-link">Xem Thêm</a>
 			</div>
+		</div>
 
-			<div class="card">
-				<img src="images/food-goi-sau-dau.jpg" alt="Gỏi sầu đâu" class="card-icon" />
-				<h3>Gỏi sầu đâu</h3>
-				<p>Món gỏi tạo bằng sầu đâu non mạnh với nước sốt cân bằng. Sẽ giớng không thể chối của đối bỏ từng vị dẹp mắt.</p>
-				<a href="mon_an.html" class="card-link">Xem Thêm →</a>
+		<div class="food-card">
+			<div class="food-image">
+				<img src="images/food-ca-kho-to.jpg" alt="Cá Kho Tộ" />
+			</div>
+			<div class="food-content">
+				<h3>Cá Kho Tộ</h3>
+				<p>Cá lóc hoặc cá quả nấu chậm với mắm, tiêu và đường. Nồi đất nóng giữ độ ẩm, khiến cá mềm ngon với vị mặn ngọt thanh lịch.</p>
+				<a href="mon_an.html" class="food-link">Xem Thêm</a>
+			</div>
+		</div>
+
+		<div class="food-card">
+			<div class="food-image">
+				<img src="images/food-tom-kho-tau.jpg" alt="Tôm Kho Tàu" />
+			</div>
+			<div class="food-content">
+				<h3>Tôm Kho Tàu</h3>
+				<p>Tôm tươi sông Mekong nấu với nước dừa béo và cà chua chua chua. Kết hợp tuyệt vời giữa ngọt của tôm, nước dừa và chua của cà chua.</p>
+				<a href="mon_an.html" class="food-link">Xem Thêm</a>
+			</div>
+		</div>
+
+		<div class="food-card highlight-card">
+			<div class="food-content-center">
+				<h3>Khám Phá Thêm Nhiều Món Ăn</h3>
+				<p>Tìm hiểu chi tiết về tất cả các đặc sản ẩm thực của An Giang</p>
+				<a href="mon_an.html" class="btn-primary">Xem Tất Cả Món Ăn</a>
 			</div>
 		</div>
 	</div>
 
-	<h2 style="margin-top: 3rem;">Video Giới Thiệu Về Tỉnh An Giang</h2>
-	<div class="video-intro-section">
-		<div class="video-container">
-			<video width="100%" height="auto" controls poster="images/poster.png" style="border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 137, 123, 0.2);">
+	<!-- Video Section -->
+	<h2 class="section-title">🎬 Khám Phá Qua Video</h2>
+	<div class="video-section">
+		<div class="video-wrapper">
+			<video width="100%" height="auto" controls poster="images/poster.png">
 				<source src="videos/an-giang-intro.mp4" type="video/mp4">
 				<source src="videos/an-giang-intro.webm" type="video/webm">
-				<p>Trình duyệt của bạn không hỗ trợ video. Vui lòng bỏ file video vào thư mục <strong>videos/</strong> với tên <strong>an-giang-intro.mp4</strong></p>
+				<p>Trình duyệt của bạn không hỗ trợ video. Vui lòng bỏ file video vào thư mục <strong>videos/</strong></p>
 			</video>
 		</div>
-		<div class="video-description">
-			<h3>Khám Phá Vẻ Đẹp An Giang Qua Video</h3>
-			<p>
-				Xem video giới thiệu toàn diện về tỉnh An Giang - từ những địa danh lịch sử tâm linh, 
-				cảnh quan thiên nhiên tuyệt vời, cho đến nền ẩm thực phong phú và nếp sống truyền thống 
-				của dân tộc Khmer. Video này sẽ giúp bạn có cái nhìn tổng thể về vùng đất xinh đẹp này.
-			</p>
+		<div class="video-text">
+			<h3>Video Giới Thiệu Tỉnh An Giang</h3>
+			<p>Xem video toàn diện về vẻ đẹp An Giang - từ những địa danh lịch sử tâm linh, cảnh quan thiên nhiên tuyệt vời, cho đến nền ẩm thực phong phú và nếp sống truyền thống của dân tộc Khmer. Video sẽ giúp bạn có cái nhìn tổng thể về vùng đất xinh đẹp này.</p>
+			<a href="videos.html" class="btn-primary">Xem Thêm Video</a>
 		</div>
 	</div>
 
-	<div class="cta-section">
-		<h2>Sẵn Sàng Bắt Đầu Hành Trình?</h2>
-		<p>Đăng ký ngay để nhận thông tin tour du lịch An Giang và các ưu đãi đặc biệt!</p>
-		<a href="dang_ki.html" class="btn">Đăng Ký Tour Ngay</a>
+	<!-- CTA Section -->
+	<div class="cta-big">
+		<h2>Bắt Đầu Hành Trình Khám Phá</h2>
+		<p>Đăng ký ngay để nhận thông tin tour du lịch An Giang và ưu đãi đặc biệt</p>
+		<a href="dang_ki.html" class="btn-cta">Đăng Ký Tour Ngay</a>
 	</div>
 </div>
 <footer>
